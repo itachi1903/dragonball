@@ -1,0 +1,138 @@
+body::-webkit-scrollbar{
+    width:10px;
+}
+body::-webkit-scrollbar-thumb {
+    background-color: #FCAF01;
+    border-radius: 10px;
+    height: 200px;
+}
+body::-webkit-scrollbar-track {
+    background-color:white;
+    border-radius: 10px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: black;
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+}
+.page-size {
+    background-color: black;
+    width: 100%;
+    height: 600px;
+}
+.page-size:nth-child(1) {
+    background-image:url(dragon.jpeg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.page-size:nth-child(2){
+    height: 700px;
+}
+@media screen and (max-width:720px) {
+    .page-size:nth-child(2){
+        height: 1090px;
+    }
+}
+#heading {
+    width: fit-content;
+    position:absolute;
+    bottom: 45px;
+    margin-left:80px;
+}
+#logo {
+    width: 300px;
+    background-color: transparent;
+}
+#heading-container {
+    width: fit-content;
+    margin-left: 80px;
+}
+#story-heading {
+    font-size: 50px;
+    width: fit-content;
+    margin-bottom: 10px;
+}
+#story-h2 {
+    font-size:40px;
+    margin-top:0;
+}
+#story-p {
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+#color {
+    font-weight: bolder;
+    color: #FCAF01;
+}
+#seq-container {
+    width: 89%;
+    height:350px;
+    margin: 50px auto;
+    overflow-x: auto;
+    position: relative;
+    scroll-behavior: smooth;
+}
+#seq-container::-webkit-scrollbar {
+    height: 10px;
+}
+#seq-container::-webkit-scrollbar-track {
+    background-color: black;
+    border: 5px solid white;
+    border-radius: 5px ;
+}
+#seq-container::-webkit-scrollbar-thumb{
+    background-color: #FCAF01;
+    border-radius:5px;
+}
+#container-1 {
+    position: absolute;
+    width: 2000px;
+    height: 310px;
+}
+#series-container {
+    width: 180px;
+    height: 300px;
+    border-radius:10px;
+    float: left;
+    margin: 10px;
+    overflow: hidden;
+}
+#series-img {
+    width:180px;
+    height: 190px;
+    border-radius: 10px;
+    margin-bottom: 0;
+}
+h3 {
+    margin-top: 0;
+    text-align: center;
+    color: #FCAF01;
+    margin-top: 5px;
+}
+#series-detail {
+    width: 85%;
+    margin: 10px auto;
+    float: left;
+    margin-left: 80px;
+}
+#season-container {
+    width: 530px;
+    height: 300px;
+    margin-left: 40px;
+    margin-top: 10px;
+    float: left;
+    border: 1px solid #FCAF01;
+    border-radius:10px;
+}
+#season-img {
+    width: 200px;
+    height: 280px;
+    border-radius: 10px;
+    margin: 10px 20px 0 10px;
+    float: left;
+}
